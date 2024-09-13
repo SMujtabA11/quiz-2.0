@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div id="parent-div">
+        <h1>Quizz Game</h1>
+        <h4 id="Score">Score:</h4>
+        <p id="currentQuestion">Click the next button to Start the quiz</p>
+        <button id="Op1" class="answer-button" onmouseover="changeColor(this);" onmouseleave="ColorReverse(this);"></button>
+        <button id="Op2" class="answer-button" onmouseover="changeColor(this);" onmouseleave="ColorReverse(this);"></button>
+        <button id="Op3" class="answer-button" onmouseover="changeColor(this);" onmouseleave="ColorReverse(this);"></button>
+        <button id="Op4" class="answer-button" onmouseover="changeColor(this);" onmouseleave="ColorReverse(this);"></button>
+        <button id="next" onclick="nextQuestion();">Next</button>
+    </div>
+    <script src="./game.js"></script>
+
+</body>
+</html>
